@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF.8"?>
+<xs:schema xmlns:xs="http:/www.w3.org/2001/XMLSchema">
+    <xs:annotation>
+        <xs:documentation>
+            <titulo>Ejemplo de repaso Cuentos</titulo>
+            <modulo>Lenguaje de marcas y sistema de gestion de la informacion</modulos>
+            <fecha_creacion>2024-11-28</fecha_creacion>
+        </xs:documentation>
+    </xs:annotation>
+    <xs:element name"cuento">
+        <xs:sequence>
+            <xs:element ref="personajes"/>
+            <xs:element ref="trama"/>
+            <xs:element ref="etiqueta" min0ccurs="unbounded"/>
+        </xs:>
+</xs:schema>

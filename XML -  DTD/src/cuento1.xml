@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE root-element [
-    <!ELEMENT root-element (#PCDATA)>
-]>
-<root-element>
-</root-element>
+<!DOCTYPE cuento>
+<cuento cod="A01" titulo="La ceniecienta" genero="infantil"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="cuentos.xsd">
+    <personajes>
+        <personaje id="A1" tipo="principal">
+            <nombre>Cenicienta</nombre>
+            <genero>F</genero>
+            <descripcion>Una joven trabajadora y bondadosa.</descripcion>
+        </personaje>
+
+        <personaje id="A2" tipo="secundario">
+            <nombre>Madrista</nombre>
+            <genero>F</genero>
+            <descripcion>Una mujer cruel y ambisiosa</descripcion>
+        </personaje>
+        <personaje id="A3" tipo="secundario">
+            <nombre>El principe</nombre>
+            <genero>M</genero>
+            <descripcion>Un joven apuesto y formal</descripcion>
+        </personaje>
+    </personajes>
+    <trama>La historia de la Cenicineta, una joven maltrada por sus novia</trama>
+    <etiqueta nombre="amor"></etiqueta>
+    <etiqueta nombre="superacion"></etiqueta>
+</cuento>
